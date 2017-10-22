@@ -27,7 +27,6 @@ public class RCTFileUploaderPackage implements ReactPackage {
         return Arrays.<NativeModule>asList(new RCTFileUploaderModule(reactApplicationContext));
     }
 
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
