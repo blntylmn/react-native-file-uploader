@@ -9,7 +9,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "RCTBridgeModule.h"
+#import <React/RCTBridge.h>
 
 @interface RCTFileUploader : NSObject<RCTBridgeModule>
 
